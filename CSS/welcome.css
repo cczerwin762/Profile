@@ -27,7 +27,7 @@ h1{
   transition-property: background;
   transition-duration: .2s;
   transition-timing-function: linear;
-
+  text-decoration: none;
 
 }
 .menuText{

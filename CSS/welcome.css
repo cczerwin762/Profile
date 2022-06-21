@@ -11,14 +11,23 @@ h1{
 }
 .menu{
   display: inline-block;
+  background: rgb(40, 222, 236);
   margin-left: 40px;
   margin-right: 40px;
   width: 150px;
   height: 75px;
   padding-top: 20px;
-  padding-bottom: 15px;
-  border-style: solid;
+  padding-bottom: 10px;
+  border-style: hidden;
+  color: #FFF;
+  font-family: "Arial", sans-serif;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 20px;
   border-radius:2px;
+  transition-property: background;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+
 
 }
 .menuText{
@@ -28,4 +37,8 @@ h1{
 
 #summary{
   margin-left: 300px;
+}
+
+.menu:hover{
+  background:rgb(20, 202, 220);
 }

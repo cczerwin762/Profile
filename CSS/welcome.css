@@ -1,0 +1,31 @@
+body{
+  background-color: rgba(40, 222, 236, 0.85);
+}
+h1{
+  padding-top: 200px;
+  text-align: center;
+  font-family: "Courier New", monospace;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px #000;
+  font-size: 100px;
+}
+.menu{
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 150px;
+  height: 75px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-radius:2px;
+
+}
+.menuText{
+  text-align: center;
+  vertical-align: middle;
+}
+
+#summary{
+  margin-left: 300px;
+}

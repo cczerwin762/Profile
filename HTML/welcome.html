@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="../CSS/welcome.css">
   </head>
   <body>
-    <h1 class = "typed"></h1>
+    <span><h1 class = "typed"></h1></span>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       var typed = new Typed(".typed", {
-        strings: ["Welcome!"],
+        strings: ["Welcome!","Select below to get started."],
         typeSpeed: 150,
+        backSpeed: 150,
+        backDelay: 500000,
         loop: false})
     </script>
     <a target="_self" href ="summary.html" class="menu" id="summary">
